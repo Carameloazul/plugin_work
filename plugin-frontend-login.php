@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:       Plugin Logueo
+ * Plugin Name:       Plugin Test
  * Plugin URI:        https://github.com/Carameloazul/plugin_work
  * Description:       Formularios de Login y registro para Evoras
  * Version:           1.0
@@ -20,6 +20,6 @@ require_once plugin_dir_path( __FILE__ ) ."/includes/API/api-registro.php";
 
  //SHORTCODES
 require_once plugin_dir_path(__FILE__)."/public/shortcode/form-registro.php";
-require_once plugin_dir_path(__FILE__)."public/shortcode/form-login.php";
+
 
 ?>
